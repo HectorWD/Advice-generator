@@ -10,7 +10,7 @@ const AdviceCard = ({id,firstAdvice}) => {
   return (
     <div className="flex flex-col items-center justify-center mx-12 bg-gray-600 min-w-fit rounded-xl">
         <h2 className="px-8 m-2 text-green-500">Advice # {advice.id}</h2>
-        <span className="px-8 m-2 text-lg font-semibold text-center text-white">"{advice.advice}"</span>
+        <span className="px-8 m-2 text-lg font-semibold text-center text-white"> &quot;{advice.advice}&quot;</span>
         <div className="px-8 m-2 ">
         <img
         src="img/pattern-divider-mobile.svg"
